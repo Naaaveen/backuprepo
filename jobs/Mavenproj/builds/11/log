@@ -1,0 +1,7 @@
+Started by user [8mha:////4GHCzTMQduRlc8xHaZ74V/XTh2rEieQQExEo8LzNSdWDAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9rNS87EwA+tSZXcAAAAA=[0mnaveen
+Running as SYSTEM
+Building remotely on [8mha:////4Jc1DsQriXnX0VzJUuXUEXiGJJmNS41misgYp/bVuz14AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 (tomcat) in workspace /home/slave2/jenkins/workspace/Mavenproj
+[Mavenproj] $ /bin/bash /tmp/jenkins9523355643213699984.sh
+sh: 0: Can't open /home/ubuntu/maven1.sh
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

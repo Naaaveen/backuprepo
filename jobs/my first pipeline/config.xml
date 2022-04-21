@@ -1,0 +1,35 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1174.vdcb_d054cf74a_">
+  <actions/>
+  <description>my pipeline</description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2686.v7c37e0578401">
+    <script>pipeline {
+    agent any
+    stages {
+        stage(&apos;checkout&apos;) 
+        {
+        steps {
+            sh &apos;echo &quot;testing the checkout stage of pipeline&quot;&apos;
+        }
+                    }
+        } 
+        stage(&apos;build&apos;) {
+         steps {
+            sh &apos;echo &quot;testing the build stage of pipeline&quot;&apos;
+                                }
+        }
+        stage(&apos;deploy&apos;) {
+         steps {
+            sh &apos;echo &quot;testing the deploy stage of pipeline&quot;&apos;
+         }
+                    }
+}
+}
+    </script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

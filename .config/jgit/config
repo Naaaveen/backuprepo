@@ -1,0 +1,6 @@
+[filesystem "Ubuntu|11.0.14.1|/dev/xvda1"]
+	timestampResolution = 5000 nanoseconds
+	minRacyThreshold = 5853 microseconds
+[filesystem "Ubuntu|11.0.14.1|/dev/root"]
+	timestampResolution = 6000 nanoseconds
+	minRacyThreshold = 6631 microseconds
